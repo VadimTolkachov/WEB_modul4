@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-modul4"
+version = "0.1.0"
+description = ""
+authors = ["VadimTolkachov <vadim4eg8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_modul4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
